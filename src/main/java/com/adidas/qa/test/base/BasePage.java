@@ -46,14 +46,14 @@ public class BasePage {
 		String browser = prop.getProperty("browser");
 
 		if (browser.equals("chrome")) { //String type method
-			WebDriverManager.firefoxdriver().setup();
+			WebDriverManager.chromedriver().setup();
 		
 			//driver = new ChromeDriver();
-			tldriver.set(new FirefoxDriver());
-		} else if (browser.equals("firefox")) {
-			WebDriverManager.chromedriver().setup();
-			//driver = new FirefoxDriver();
 			tldriver.set(new ChromeDriver());
+		} else if (browser.equals("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			//driver = new FirefoxDriver();
+			tldriver.set(new FirefoxDriver());
 		} else if (browser.equals("safari")) {
 			WebDriverManager.getInstance(SafariDriver.class).setup();
 			//driver = new SafariDriver();

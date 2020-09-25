@@ -52,15 +52,16 @@ public class HomePageTest {
 	public void testSearchField() {
 		homePage.checkSearchField();
 	}
-	
-	@Test
-	public void testLightSearch() throws AWTException, InterruptedException {
-		WebElement element = driver.findElement(By.id("search-query"));
-		element.click();
-		element.sendKeys("Light");
-		Thread.sleep(5000);
-		element.sendKeys(Keys.ENTER);
-Thread.sleep(5000);
+
+	//from Lowes
+//	@Test
+//	public void testLightSearch() throws AWTException, InterruptedException {
+//		WebElement element = driver.findElement(By.id("search-query"));
+//		element.click();
+//		element.sendKeys("Light");
+//		Thread.sleep(5000);
+//		element.sendKeys(Keys.ENTER);
+//Thread.sleep(5000);
 //		Robot robot = new Robot();
 //		robot.keyPress(KeyEvent.VK_ENTER);
 //		Thread.sleep(5000);
@@ -69,7 +70,7 @@ Thread.sleep(5000);
 		//driver.findElement(By.xpath("//input[@id='search-query']")).sendKeys("Light", Keys.ENTER);
 		//driver.findElement(By.xpath("button[@type='submit' and @class='styles__Button-RC__sc-ajxwy0-3 styles__SearchIconExtended-RC__sc-ajxwy0-4 hrQoSE search-icon']")).click();
 	
-	}
+//	}
 
 	@AfterTest
 	public void quitBrowser() {
