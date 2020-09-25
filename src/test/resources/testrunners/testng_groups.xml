@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Adidas Test Groups" verbose="4">
+
+	<listeners>
+		<listener
+			class-name="com.adidas.qa.test.listeners.ExtentReportListener"></listener>
+		<listener
+			class-name="com.adidas.qa.test.listeners.TestAllureListener"></listener>
+	</listeners>
+
+	<test name="grouping">
+		<groups>
+			<run>
+				<!-- <include name="functionalTest"></include>
+				<exclude name="unitTest"></exclude> -->
+			</run>
+		</groups>
+		<classes>
+			<class name="com.adidas.qa.tests.HomePageTest" ></class> 
+		</classes>
+	</test>
+
+</suite>

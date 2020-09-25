@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Adidas Test Suite" verbose="1">
+<!-- <Need to study verbose, studied, need discussion> -->
+
+	<listeners>
+		<listener
+			class-name="com.adidas.qa.test.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.adidas.qa.test.listeners.TestAllureListener" />
+			
+
+	</listeners>
+
+	<test name="Adidas sanity Test">
+		<groups>
+			<dependencies>
+				<!-- <group name="secondGroup" depends-on="firstGroup"></group> -->
+			</dependencies>
+		</groups>
+		<classes>
+			<!-- <class name="com.adidas.qa.tests.HomePageTest" /> -->
+			<!-- <class name="com.adidas.qa.tests.LearningSeleniumMethodsTest" >
+			<methods>
+				<exclude name="testContactNumber()"></exclude>
+			</methods>
+			</class> -->
+			<class name="com.adidas.qa.tests.HomePageTest" />
+			
+
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Adidas Test Groups]">
+  <listeners>
+    <listener class-name="com.adidas.qa.test.listeners.ExtentReportListener"/>
+    <listener class-name="com.adidas.qa.test.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" verbose="4" name="grouping(failed)">
+    <classes>
+      <class name="com.adidas.qa.tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="quitBrowser"/>
+          <include name="testLightSearch"/>
+        </methods>
+      </class> <!-- com.adidas.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- grouping(failed) -->
+</suite> <!-- Failed suite [Adidas Test Groups] -->
