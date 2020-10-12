@@ -9,9 +9,10 @@
     <classes>
       <class name="com.adidas.qa.tests.HomePageTest">
         <methods>
+          <include name="testSearchField"/>
           <include name="setUp"/>
           <include name="quitBrowser"/>
-          <include name="testLightSearch"/>
+          <include name="testHelp"/>
         </methods>
       </class> <!-- com.adidas.qa.tests.HomePageTest -->
     </classes>

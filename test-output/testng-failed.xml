@@ -5,10 +5,8 @@
     <classes>
       <class name="com.adidas.qa.tests.HomePageTest">
         <methods>
-          <include name="verifyHomePageAppLogo"/>
-          <include name="testSearchField"/>
+          <include name="testSearchItem1"/>
           <include name="setUp"/>
-          <include name="verifyHomePageTitleTest"/>
           <include name="quitBrowser"/>
         </methods>
       </class> <!-- com.adidas.qa.tests.HomePageTest -->

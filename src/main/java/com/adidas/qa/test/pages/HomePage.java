@@ -6,19 +6,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Wait;
 
 public class HomePage extends BasePage {
 	WebDriver driver;
 	ElementUtil elementUtil;
 
+	//this is one way to write
 	By logo = By.xpath("//a[@data-auto-id='logo']"); //adidas
-	//By logo = By.xpath("//div[@class='lowes-logo']");  //from Lowes
 	
-
-	@FindBy(xpath = "//input[@data-auto-id='searchinput']") //adidas
-	//@FindBy(xpath = "//input[@id='search-query']") //from Lowes
-	
-	public static WebElement searchField;
+	//this is second way to write (most common)	
+	@FindBy(xpath = "//input[@placeholder='Search']") //adidas
+	WebElement searchField;
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
@@ -37,6 +36,22 @@ public class HomePage extends BasePage {
 
 	public void checkSearchField() {
 		searchField.click();
+	}
+	
+	
+	
+	@FindBy(xpath = "//a[text()='Help']//parent::div")
+	WebElement help;
+	
+	public void checkHelp() {
+		help.click();
+	}
+	
+	@FindBy(xpath = "//a[text()='Exchanges & Returns']")
+	WebElement exchang;
+	
+	public void checkExchange() {
+		exchang.click();
 	}
 
 }

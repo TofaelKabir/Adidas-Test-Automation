@@ -62,6 +62,7 @@ public class BasePage {
 		} else {
 			System.out.println("Please pass the correct browser name....");
 		}
+		
 		getDriver().manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		getDriver().manage().window().fullscreen();
 		getDriver().manage().deleteAllCookies();
