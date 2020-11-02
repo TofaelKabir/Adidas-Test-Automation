@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="13" total="14" passed="1">
+<testng-results skipped="0" failed="0" ignored="24" total="26" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32190" started-at="2020-10-12T02:29:23Z" finished-at="2020-10-12T02:29:55Z">
+  <suite name="Default suite" duration-ms="38376" started-at="2020-11-02T03:35:48Z" finished-at="2020-11-02T03:36:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32190" started-at="2020-10-12T02:29:23Z" finished-at="2020-10-12T02:29:55Z">
+    <test name="Default test" duration-ms="38376" started-at="2020-11-02T03:35:48Z" finished-at="2020-11-02T03:36:26Z">
       <class name="com.adidas.qa.tests.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.adidas.qa.tests.HomePageTest@10db82ae]" name="setUp" is-config="true" duration-ms="16829" started-at="2020-10-12T02:29:23Z" finished-at="2020-10-12T02:29:40Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.adidas.qa.tests.HomePageTest@10db82ae]" name="setUp" is-config="true" duration-ms="15093" started-at="2020-11-02T03:35:49Z" finished-at="2020-11-02T03:36:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAnotherWebsite3()[pri:0, instance:com.adidas.qa.tests.HomePageTest@10db82ae]" name="testAnotherWebsite3" duration-ms="14048" started-at="2020-10-12T02:29:40Z" finished-at="2020-10-12T02:29:54Z">
+        <test-method status="PASS" signature="selectAppliances()[pri:0, instance:com.adidas.qa.tests.HomePageTest@10db82ae]" name="selectAppliances" duration-ms="9783" started-at="2020-11-02T03:36:04Z" finished-at="2020-11-02T03:36:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAnotherWebsite3 -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.adidas.qa.tests.HomePageTest@10db82ae]" name="quitBrowser" is-config="true" duration-ms="716" started-at="2020-10-12T02:29:54Z" finished-at="2020-10-12T02:29:55Z">
+        </test-method> <!-- selectAppliances -->
+        <test-method status="PASS" signature="testListOfAboutUs()[pri:2, instance:com.adidas.qa.tests.HomePageTest@10db82ae]" name="testListOfAboutUs" duration-ms="10916" started-at="2020-11-02T03:36:14Z" finished-at="2020-11-02T03:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListOfAboutUs -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.adidas.qa.tests.HomePageTest@10db82ae]" name="quitBrowser" is-config="true" duration-ms="1795" started-at="2020-11-02T03:36:25Z" finished-at="2020-11-02T03:36:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->

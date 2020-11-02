@@ -5,9 +5,9 @@
     <classes>
       <class name="com.adidas.qa.tests.HomePageTest">
         <methods>
-          <include name="testSearchItem1"/>
           <include name="setUp"/>
           <include name="quitBrowser"/>
+          <include name="testMen2"/>
         </methods>
       </class> <!-- com.adidas.qa.tests.HomePageTest -->
     </classes>
