@@ -1,29 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="24" total="26" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38376" started-at="2020-11-02T03:35:48Z" finished-at="2020-11-02T03:36:26Z">
+  <suite name="Default suite" duration-ms="100935" started-at="2020-11-16T01:40:49Z" finished-at="2020-11-16T01:42:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38376" started-at="2020-11-02T03:35:48Z" finished-at="2020-11-02T03:36:26Z">
-      <class name="com.adidas.qa.tests.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.adidas.qa.tests.HomePageTest@10db82ae]" name="setUp" is-config="true" duration-ms="15093" started-at="2020-11-02T03:35:49Z" finished-at="2020-11-02T03:36:04Z">
+    <test name="Default test" duration-ms="100935" started-at="2020-11-16T01:40:49Z" finished-at="2020-11-16T01:42:29Z">
+      <class name="testDataProviderUtilityWithXlsReader.TestLogInByXls">
+        <test-method status="PASS" signature="initializePageObject()[pri:0, instance:testDataProviderUtilityWithXlsReader.TestLogInByXls@78dd667e]" name="initializePageObject" is-config="true" duration-ms="12582" started-at="2020-11-16T01:40:49Z" finished-at="2020-11-16T01:41:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="selectAppliances()[pri:0, instance:com.adidas.qa.tests.HomePageTest@10db82ae]" name="selectAppliances" duration-ms="9783" started-at="2020-11-02T03:36:04Z" finished-at="2020-11-02T03:36:14Z">
+        </test-method> <!-- initializePageObject -->
+        <test-method status="PASS" signature="loginTestWithDataProvider(java.lang.String, java.lang.String)[pri:0, instance:testDataProviderUtilityWithXlsReader.TestLogInByXls@78dd667e]" name="loginTestWithDataProvider" duration-ms="23045" started-at="2020-11-16T01:41:02Z" data-provider="supplyDataExcel" finished-at="2020-11-16T01:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hgdkjskskk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[veryeasy1212]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectAppliances -->
-        <test-method status="PASS" signature="testListOfAboutUs()[pri:2, instance:com.adidas.qa.tests.HomePageTest@10db82ae]" name="testListOfAboutUs" duration-ms="10916" started-at="2020-11-02T03:36:14Z" finished-at="2020-11-02T03:36:25Z">
+        </test-method> <!-- loginTestWithDataProvider -->
+        <test-method status="PASS" signature="initializePageObject()[pri:0, instance:testDataProviderUtilityWithXlsReader.TestLogInByXls@78dd667e]" name="initializePageObject" is-config="true" duration-ms="10735" started-at="2020-11-16T01:41:25Z" finished-at="2020-11-16T01:41:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testListOfAboutUs -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.adidas.qa.tests.HomePageTest@10db82ae]" name="quitBrowser" is-config="true" duration-ms="1795" started-at="2020-11-02T03:36:25Z" finished-at="2020-11-02T03:36:26Z">
+        </test-method> <!-- initializePageObject -->
+        <test-method status="PASS" signature="loginTestWithDataProvider(java.lang.String, java.lang.String)[pri:0, instance:testDataProviderUtilityWithXlsReader.TestLogInByXls@78dd667e]" name="loginTestWithDataProvider" duration-ms="22139" started-at="2020-11-16T01:41:36Z" data-provider="supplyDataExcel" finished-at="2020-11-16T01:41:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kevhurt@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[longislandcity2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithDataProvider -->
+        <test-method status="PASS" signature="initializePageObject()[pri:0, instance:testDataProviderUtilityWithXlsReader.TestLogInByXls@78dd667e]" name="initializePageObject" is-config="true" duration-ms="8586" started-at="2020-11-16T01:41:58Z" finished-at="2020-11-16T01:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObject -->
+        <test-method status="PASS" signature="loginTestWithDataProvider(java.lang.String, java.lang.String)[pri:0, instance:testDataProviderUtilityWithXlsReader.TestLogInByXls@78dd667e]" name="loginTestWithDataProvider" duration-ms="22338" started-at="2020-11-16T01:42:07Z" data-provider="supplyDataExcel" finished-at="2020-11-16T01:42:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[willsmith@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhakabangladesh2000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithDataProvider -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testDataProviderUtilityWithXlsReader.TestLogInByXls@78dd667e]" name="quitBrowser" is-config="true" duration-ms="363" started-at="2020-11-16T01:42:29Z" finished-at="2020-11-16T01:42:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- com.adidas.qa.tests.HomePageTest -->
+      </class> <!-- testDataProviderUtilityWithXlsReader.TestLogInByXls -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
